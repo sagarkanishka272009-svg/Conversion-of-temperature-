@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+
+float f;
+
+printf("enter f : ");
+scanf("%f",&f);
+
+float c =(f - 32) × 5.0 * 9.0;
+
+printf("Fahrenheit value :"%.2f\n", f);
+printf("Celsius value : "%.2f\n", c);
+
+return 0;
+}
